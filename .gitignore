@@ -1,0 +1,66 @@
+# ==========================================
+# IDE & System Specific
+# ==========================================
+.vs/
+.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.DS_Store
+
+# ==========================================
+# Compiled Binaries & Build Artifacts
+# ==========================================
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# ==========================================
+# Unreal Engine Temporary Directories
+# ==========================================
+# Trailing slashes skip folder scanning entirely for massive speedups
+Binaries/
+Plugins/**/Binaries/
+Intermediate/
+Plugins/**/Intermediate/
+DerivedDataCache/
+Saved/
+
+# ==========================================
+# Source Art & Large Binaries (Track in LFS instead)
+# ==========================================
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# ==========================================
+# Maps & Generated Data
+# ==========================================
+*_BuiltData.uasset
+
+# ==========================================
+# Build System & Whitelists
+# ==========================================
+Build/
+!Build/PakBlacklist*.txt
+!Build/Icon.ico
+!Build/**/*.ico
